@@ -10,7 +10,7 @@ const Menu = () => {
    return(
       <div className="w-full bg-slate-800 md:bg-transparent fixed z-10">
          <nav className="h-11">
-            <div className="flex justify-between md:justify-center">
+            <div className="flex justify-between md:justify-center md:pb-5">
                <a href="#"><img className="w-24" src={logo} alt="Logo IBACC" /></a>
                <div className="md:hidden">
                   <button className="flex items-center p-1" onClick={handleClick}>
@@ -19,12 +19,11 @@ const Menu = () => {
                </div>
             </div>
             <div className="bg-slate-800 text-white md:bg-transparent flex justify-center w-full md:visible collapse" id="menu">
-               <ul className="md:flex">
-                  <li className="md:mx-6 text-center hover:underline hover:cursor-pointer">Nosotros</li>
-                  <li className="md:mx-6 text-center hover:underline hover:cursor-pointer">Ubicaciones</li>
-                  <li className="md:mx-6 text-center hover:underline hover:cursor-pointer">En vivo</li>
-                  <li className="md:mx-6 text-center hover:underline hover:cursor-pointer">Eventos</li>
-                  <li className="md:mx-6 text-center hover:underline hover:cursor-pointer">Ubicaciones</li>
+               <ul className="md:flex pb-5">
+                  <li className="md:mx-6 md:text-lg text-center hover:underline hover:cursor-pointer">NOSOTROS</li>
+                  <li className="md:mx-6 md:text-lg text-center hover:underline hover:cursor-pointer">UBICACION</li>
+                  <li className="md:mx-6 md:text-lg text-center hover:underline hover:cursor-pointer">EN VIVO</li>
+                  <li className="md:mx-6 md:text-lg text-center hover:underline hover:cursor-pointer">EVENTOS</li>
                </ul>
             </div>
          </nav>
