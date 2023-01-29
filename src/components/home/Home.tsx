@@ -1,4 +1,5 @@
 import backgroundHome from '../../assets/Images/backgroundHome.jpg'
+import Members from '../members/Members'
 import SocialMedia from '../social-media/SocialMedia'
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
             </div>
          </div>
          <SocialMedia />
+         <Members />
       </div>
    )
 }
