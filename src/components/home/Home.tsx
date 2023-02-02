@@ -6,11 +6,11 @@ const Home = () => {
    return(
       <div>
          <div className="relative">
-            <div className="h-56 md:h-96 sature-200">
+            <div className="h-56 md:h-[450px] sature-200">
                <img className="h-full w-full" src={backgroundHome} alt="Imagen Iglesia" />
             </div>
             <div className="absolute w-full left-0 bottom-0">
-               <h1 className="text-3xl text-center text-white font-bold bg-slate-900 bg-opacity-60 flex justify-center items-center h-56 md:w-full md:h-96 md:text-7xl">CRUZADA CRISTIANA BENDICION ABUNDANTE</h1>
+               <h1 className="text-3xl text-center text-white font-bold bg-slate-900 bg-opacity-60 flex justify-center items-center h-56 md:w-full md:h-[450px] md:text-7xl">CRUZADA CRISTIANA BENDICION ABUNDANTE</h1>
             </div>
          </div>
          <div>
